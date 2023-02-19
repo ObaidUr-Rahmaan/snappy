@@ -2,6 +2,8 @@
 
 ## Local Setup
 
+Contact me for the .env file
+
 Make sure to install the dependencies:
 
 ```bash
