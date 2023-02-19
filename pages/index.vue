@@ -8,14 +8,13 @@ useHead({
   <section class="grid h-screen place-items-center">
     <div class="max-w-3xl mx-auto text-center">
       <h1 class="text-5xl font-bold heading lg:text-6xl">
-        Make your links tiny and easy to share with tnyl
+        Shorten your links with Snappy - the blazingly fast URL shortener.
       </h1>
       <p class="w-10/12 mx-auto my-10 text-lg md:w-2/3">
-        Transform your long, cumbersome URLs into short and shareable links with
-        TinyLink
+        Share your content effortlessly with sleek and memorable links.
       </p>
-      <NuxtLink :to="{ name: 'dashboard' }" class="text-sm btn"
-        >Short Now</NuxtLink
+      <NuxtLink :to="{ name: 'dashboard' }" class="text-base btn"
+        >Try it Now</NuxtLink
       >
     </div>
   </section>
@@ -32,6 +31,6 @@ useHead({
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 </style>

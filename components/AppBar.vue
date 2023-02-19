@@ -29,8 +29,8 @@ const handleLogout = async () => {
             :to="{
               name: 'auth',
             }"
-            class="btn"
-            >Signin</nuxt-link
+            class="p-2 text-base btn"
+            >Sign In</nuxt-link
           >
         </li>
         <li v-if="user" class="grid place-content-center">

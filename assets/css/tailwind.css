@@ -18,7 +18,7 @@ body::before{
 }
 
 .btn{
-    @apply px-4 py-2 rounded-full text-white/80;
+    @apply px-5 py-2 rounded-full text-white/80;
     background: linear-gradient(88.68deg, #D97706 -36.99%, #F59E0B 111.2%);
 }
 .btn-rouned{

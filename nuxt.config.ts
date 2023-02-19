@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: [
-        '@nuxtjs/tailwindcss',
-        '@nuxtjs/supabase',
-      ]
-})
+  modules: ["@nuxtjs/supabase", "@nuxtjs/tailwindcss"],
+
+  runtimeConfig: {
+    public: {
+      appUrl: process.env.APP_URL,
+    },
+  },
+});
