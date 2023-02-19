@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 useHead({
-  title: "Shrtybase - Nuxt 3 + Supabase URL Shortener with analytics",
+  title: "Snappy - Nuxt 3 + Supabase URL Shortener with analytics",
 });
 </script>
 
