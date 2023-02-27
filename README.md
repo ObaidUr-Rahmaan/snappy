@@ -1,4 +1,4 @@
-# Snappy
+# Snappy - In Development
 
 ## Local Setup
 
